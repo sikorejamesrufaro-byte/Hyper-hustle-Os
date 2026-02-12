@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Global Ventures | GitHub Ready</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --primary:#2563eb;
+  --dark:#0f172a;
+  --bg:#f1f5f9;
+  --card:#ffffff;
+  --success:#22c55e;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--dark);
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.card {
+  background: var(--card);
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  margin-bottom: 15px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: var(--primary);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.progress {
+  height: 8px;
+  background: #e5e7eb;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 8px;
+}
+
+.progress div {
+  height: 100%;
+  width: 80%;
+  background: var(--success);
+}
+</style>
+</head>
+
+<body>
+
+<h1>🌍 Global Ventures</h1>
+
+<div class="container">
+
+  <div class="card">
+    <h2>Deployment Status</h2>
+    <p>This file is fully compatible with GitHub Pages.</p>
+    <div class="progress"><div></div></div>
+  </div>
+
+  <div class="card">
+    <h3>How to Use</h3>
+    <ul>
+      <li>Upload this file to the root of your GitHub repository</li>
+      <li>Go to Settings → Pages</li>
+      <li>Select "Deploy from branch" (main branch / root)</li>
+    </ul>
+    <button>System Online ✅</button>
+  </div>
+
+</div>
+
+</body>
+</html>
